@@ -9,12 +9,13 @@ body{
   color: antiquewhite;
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
+  height: 100vh;
 }
 .header, .main, .footer{
   width: 90vw;
   margin: 0 auto;
 }
-.header{
+.header, .footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -26,10 +27,53 @@ body{
 .logo-title{
   font-size: 36px;
 }
+.search{
+  cursor: pointer;
+}
+.field{
+  width: 175px;
+  padding: 10px 50px 10px 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+ }
+button{
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 12px;
+  appearance: none;
+  z-index: 2;
+  right: 100px;
+  position: absolute;
+}
 .line{
   color: orange;
   height: 2px;
 }
+.output{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.api-img{
+  background-color:;
+  width: 27vw;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .footer{
   background-color: darkslategrey;
+  border-radius: 15px 15px 0 0;
+}
+.footer-img{
+  width: 15vw;
+  text-align: center;
+  
 }
