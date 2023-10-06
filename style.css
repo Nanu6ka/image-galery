@@ -71,9 +71,13 @@ button{
 .footer{
   background-color: darkslategrey;
   border-radius: 15px 15px 0 0;
+  padding: 20px;
 }
 .footer-img{
-  width: 15vw;
+  width: 10vw;
   text-align: center;
-  
+}
+.footer-link{
+  color: antiquewhite;
+  text-decoration: none;
 }
